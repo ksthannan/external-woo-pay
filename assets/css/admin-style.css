@@ -1,0 +1,15 @@
+.product_site_settings, .payment_site_settings {
+    padding: 20px;
+    border-radius: 10px;
+    margin:20px 0;
+    border: 2px solid #fff;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+.exwoopay_active {
+    border: 2px solid green;
+    background: #fff;
+}

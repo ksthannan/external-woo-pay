@@ -1,0 +1,38 @@
+.exwoopay_payment header, .exwoopay_payment footer {
+    display: none !important;
+}
+.exwoopay_product ul.wc_payment_methods.payment_methods.methods {
+    display: none !important;
+}
+.exwoopay_modal_wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.exwoopay_modal_wrap.exwoopay_active {
+    display: block;
+}
+.exwoopay_modal_content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 50px auto;
+    max-width: 900px;
+    width:calc(100% - 100px);
+    background: #fff;
+    border-radius: 10px;
+}
+.exwoopay_modal_wrap iframe.exwoopay_payment_url {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    overflow-y: scroll;
+}
